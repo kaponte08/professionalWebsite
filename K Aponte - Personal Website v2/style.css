@@ -1,0 +1,117 @@
+body{
+    background-color: #f3fbff;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", serif;
+}
+header{
+    background-color: #152276;
+    margin: -8px;
+    text-align: center;
+    color: #fad756;
+
+}
+nav{
+    background-color: #061339;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: fit-content ;
+    max-height: 100px;
+    flex-flow: row wrap;
+    font-size: 110%;
+    /* position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: -1%; */
+}
+nav a{
+    color: #ffebbd;
+    padding: .7em 1em;
+    /* border: solid rgb(255, 0, 0) 1px; */
+    /* ^^ Uncomment if trying to see the area of clicking*/
+}
+span{
+    display: flex;
+    height: 0.4in;
+    align-items:center;
+}
+nav a:hover{
+    color: #ffee02;
+}
+
+span .active{
+    color: #ffc927;
+    background-color: #2752afad;
+    padding: 0.5em;
+
+}
+
+main{
+    align-self:center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width:75%;
+
+}
+section{
+    background-color: #f9e083;
+    padding: 2%;
+
+    &:nth-of-type(2){
+        background-color: #152276;
+        color: #ffffff;
+    }
+
+}
+form{
+    display: flex;
+    margin: auto;    
+    flex-direction: column;
+    background-color: #bce8fa;
+    padding: 2%;
+    gap:1em;
+    width: 90%;
+}
+input{
+    width: 75%;
+}
+#submit{
+    align-self: last baseline;
+    width: 25%;
+}
+input:hover{
+    background-color: #ebffff;
+}
+img{
+    border-radius: 5%;
+}
+#img1{
+    width: 2em;
+    height: auto;
+    margin-left: 3%;
+}
+#img2{
+    width: 25%;
+    height:auto;
+    float:right;
+}
+footer{
+    background-color: #152276;
+    color: #f3fbff;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    padding: 8px 15%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    text-align: left;
+    font-size: 80%;
+}
+
